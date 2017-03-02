@@ -1,0 +1,159 @@
+html {
+	font-family: 'Open Sans', sans-serif;
+}
+
+* {
+	box-sizing: border-box;  /* Border nie zlicza się do szerokości */
+}
+
+
+.header {
+	background-image: url(../images/header.jpg);
+	background-color: black; /* kolor gdyby obrazek się nie wczytał */
+    height: 500px;
+    background-repeat: no-repeat; 
+    background-size: cover; 
+}
+
+.container { 
+    margin: 0 auto;
+    width: 900px;
+
+}
+
+.header .container {
+	height: 500px;
+}
+
+
+.logo_header {
+    display: inline-block;
+    float: left;
+    width: 40%;
+}
+
+.menu {
+
+	float: left;
+	font-size: 14px;
+	color: white;
+}
+
+.header ul li {
+    width: 19%;
+    display: inline-block;
+    padding: 21px;
+}
+
+.row::after { /* alternatywa dla clearfixa */
+    clear: both;
+    content: '';
+    display: block;
+}
+
+.slider {
+	width: 613px;
+	margin-top: 79px;
+}
+
+.text_small {
+	font-size: 24px;
+	color: white;
+	line-height: 67px;
+}
+
+.text_big {
+	font-size: 60px;
+	color: white;
+	text-transform: uppercase;
+}
+
+button {
+    background-color: #e92121;
+    color: white;
+    width: 156px;
+    font-size: 16px;
+    height: 39px;
+    border: none;
+    margin-top: 30px;
+}
+
+.section .container {
+	background-color: white;
+	height: 430px;
+}
+.title {
+	display: inline-block;
+	float: left;
+	width: 48%;
+	text-transform: uppercase;
+	font-size: 48px;
+	color: #464646; 
+	font-weight: bold;
+	margin: 100px 0 100px 0;
+
+}
+
+.article {
+	display: inline-block;
+	float: left;
+	width: 52%;
+	font-size: 16px;
+	color:  #b7b7b7;
+	margin: 41px 0 0 0;
+}
+
+.footer {
+	background-color: black;
+	height: 280px;
+}
+
+
+.menu_footer {
+	font-size: 16px;
+	color: #474747;
+	margin-top: 30px;
+}
+
+.copyright{
+	font-size: 16px;
+	color: #353434;
+}
+
+.menu_footer_first {
+	display: inline-block;
+	width: 30%;
+	float: left;
+	line-height: 35px;
+}
+
+.menu_footer_second {
+	display: inline-block;
+	width: 30%;
+	float: left;
+	line-height: 35px;
+}
+
+.copyright {
+	display: inline-block;
+	width: 30%;
+	float: right;
+}
+
+.footer a{
+	color: #353434;
+	text-decoration: none;
+}
+
+.footer a:hover {
+	text-decoration: underline;
+}
+
+.header a{
+	color: white;
+	text-decoration: none;
+}
+
+.header a:hover {
+	text-decoration: underline;
+}
